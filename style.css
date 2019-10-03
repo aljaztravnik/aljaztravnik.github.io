@@ -2,7 +2,9 @@ body{
   background-color: #464c56;
   font-family: "Microsoft Sans Serif"; 
   max-width: 100%;
-  min-width: 500px;
+  min-width: 20%;
+  max-height: 100%;
+  min-height: 20%;
 }
 
 * {
@@ -27,7 +29,7 @@ li a {
   display: block;
   color: #ffffff;
   text-align: center;
-  padding: 15px 16px;
+  padding: 1% 1%;
   text-decoration: none;
 }
 
@@ -54,28 +56,6 @@ a:active{
 
 .active{
   background-color: #08248c;
-}
-
-.linki{
-  margin-left: 20%;
-  margin-right: 60%;
-  padding-top: 1%;
-  padding-bottom: 8px;
-  font-size: 17px;
-  color: #ffffff;
-  max-width: 20%;
-  min-width: 500px;  
-}
-
-#W3{
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  border: 0;
-  max-width: 3%;
-  min-width: 30px;
-  max-height: 2%;
-  min-height: 20px;
 }
 
 footer {
